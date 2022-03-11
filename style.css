@@ -5,13 +5,13 @@
 }
 html,body 
 {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background-image: url("https://images.unsplash.com/photo-1495475973814-1f767e1f1fc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE3fHx3aGl0ZSUyMGZsb3dlciUyMHdpdGglMjB3b21lbnxlbnwwfHwwfGJsYWNrfA%3D%3D&auto=format&fit=crop&w=800&q=60");
     background-position: center;
     background-size: cover;
@@ -20,55 +20,55 @@ html,body
 #main #blur{
     position: absolute;
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     background: rgba(0, 0, 0, 0.761);
 }
 
 #main #blur #nav{
     position: absolute;
-    height: 12%;
-    width: 100%;
+    height: 12vh;
+    width: 100vw;
     border-bottom: 2px solid rgb(133, 133, 133);
 }
 
 #main #blur #part1{
-    height: 200%;
-    width: 8%;
+    height: 200vh;
+    width: 8vw;
     border-right: 2px solid rgb(133, 133, 133);
 
 }
 
 #main #blur #part1 #part11{
     position: absolute;
-    top: 12%;
-    height: 88%;
-    width: 8%;
+    top: 12vh;
+    height: 88vh;
+    width: 8vw;
     border-top-right-radius: 25px;
     border-top: 2px solid rgb(133, 133, 133);
 }
 
 #main #blur #part1 #part12{
     position: absolute;
-    top: 0%;
-    height: 12%;
-    width: 8%;
+    top: 0vh;
+    height: 12vh;
+    width: 8vw;
     border-bottom-right-radius: 25px;
     border-bottom: 2px solid rgb(133, 133, 133);
 }
 
 #main #blur #part2{
-    height: 100%;
-    width: 60%;
+    height: 100vh;
+    width: 60vw;
     border-right: 2px solid rgb(133, 133, 133);
 }
 
 #main #blur #part2 #part21{
     position: absolute;
-    top: 12%;
-    left: 8%;
-    height: 88%;
-    width: 60%;
+    top: 12vh;
+    left: 8vw;
+    height: 88vh;
+    width: 60vw;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     border-top: 2px solid rgb(133, 133, 133);
@@ -186,16 +186,16 @@ html,body
 #main #blur #part2 #part22{
     position: absolute;
     top: 0%;
-    height: 12%;
-    width: 60%;
+    height: 12vh;
+    width: 60vw;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom: 2px solid rgb(133, 133, 133);
 }
 
 #main #blur #part2 #nav1{
-    height: 12%;
-    width: 100%;
+    height: 12vh;
+    width: 100vw;
 }
 
 #main #blur #part2 #nav1 #nav2{
@@ -204,8 +204,8 @@ html,body
     align-items: center;
     position: absolute;
     top: 0%;
-    height: 12%;
-    width: 42%;
+    height: 12vh;
+    width: 42vw;
     padding: 0px 20px;
 }
 
@@ -228,8 +228,8 @@ html,body
     position: absolute;
     top: 0%;
     left: 50%;
-    height: 12%;
-    width: 18%;
+    height: 12vh;
+    width: 18vw;
     padding: 0px 30px;
 }
 
@@ -259,8 +259,8 @@ html,body
 }
 
 #main #blur #part3{
-    height: 100%;
-    width: 24%;
+    height: 100vh;
+    width: 24vw;
     border-right: 2px solid rgb(133, 133, 133);
 }
 
@@ -268,8 +268,8 @@ html,body
     position: absolute;
     top: 12%;
     left: 68%;
-    height: 88%;
-    width: 24%;
+    height: 88vh;
+    width: 24vw;
     background-image: url("https://images.unsplash.com/photo-1611673307654-6b688e32b0f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8d2hpdGUlMjBmbG93ZXIlMjB3aXRoJTIwd29tZW58ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
     background-position: center;
     background-size: cover;  
@@ -281,8 +281,8 @@ html,body
 #main #blur #part3 #part32{
     position: absolute;
     top: 0%;
-    height: 12%;
-    width: 24%;
+    height: 12vh;
+    width: 24vw;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom: 2px solid rgb(133, 133, 133);
@@ -292,8 +292,8 @@ html,body
     position: absolute;
     top: 12%;
     left: 68%;
-    height: 88%;
-    width: 24%;
+    height: 88vh;
+    width: 24vw;
     background-color: rgba(0, 0, 0, 0);
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -302,8 +302,8 @@ html,body
 }
 
 #main #blur #part4{
-    height: 200%;
-    width: 8%;
+    height: 200vh;
+    width: 8vw;
     border-left: 2px solid rgb(133, 133, 133);
 }
 
@@ -311,8 +311,8 @@ html,body
     position: absolute;
     top: 12%;
     left: 92%;
-    height: 88%;
-    width: 8%;
+    height: 88vh;
+    width: 8vw;
     border-top-left-radius: 25px;
     border-left: 1px solid rgb(133, 133, 133);
     border-top: 2px solid rgb(133, 133, 133);
@@ -321,22 +321,23 @@ html,body
 #main #blur #part4 #part42{
     position: absolute;
     top: 0%;
-    height: 12%;
-    width: 6%;
+    height: 12vh;
+    width: 6vw;
     border-bottom-left-radius: 25px;
     border-bottom: 2px solid rgb(133, 133, 133);
 }
 
 #main1{
+    position: relative;
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main1 #text4{
     text-align: center;
     position: absolute;
-    bottom: -50%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -351,7 +352,7 @@ html,body
     height: 300px;
     width: 1100px;
     position: absolute;
-    bottom: -105%;
+    bottom: -10%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -390,14 +391,14 @@ html,body
 
 #main2{
     display: flex;
-    height: 85%;
-    width: 100%;
+    height: 85vh;
+    width: 100vw;
     background-color: rgb(22, 22, 22);
 }
 
 #main2 #stock{
-    height: 70%;
-    width: 40%;
+    height: 70vh;
+    width: 40vw;
     margin: 6% 7.5%;
 }
 
@@ -485,14 +486,14 @@ html,body
 
 #main3{
     display: flex;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main3 #img{
     margin: 8.5% 6%;
-    height: 78%;
-    width: 30%;
+    height: 78vh;
+    width: 30vw;
     background-image: url("https://images.unsplash.com/photo-1600939991914-d70756d1d294?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Z2lybCUyMGluJTIwbGVhZnN8ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=800&q=60");
     background-position: center;
     background-size: cover;
@@ -503,8 +504,8 @@ html,body
     position: absolute;
     left: 35%;
     margin: 8.5% 3%;
-    height: 78%;
-    width: 60%;
+    height: 78vh;
+    width: 60vw;
 }
 
 #main3 #text5 #design{
@@ -587,8 +588,8 @@ html,body
 }
 
 #main4{
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 #main4 #navb{
@@ -596,7 +597,7 @@ html,body
     justify-content: space-between;
     align-items: center;
     height: 150px;
-    width: 100%;
+    width: 100vw;
     margin: 50px 0px;
 }
 
@@ -635,8 +636,8 @@ html,body
 
 #main4 #blog1{
     display: flex;
-    height: 35%;
-    width: 88.5%;
+    height: 35vh;
+    width: 88.5vw;
     margin: -65px 87px;
 }
 
@@ -717,8 +718,8 @@ html,body
 
 #main4 #blog2{
     display: flex;
-    height: 35%;
-    width: 88.5%;
+    height: 35vh;
+    width: 88.5vw;
     border: 2px solid rgba(0, 0, 0, 0.378);
     margin: 93px 87px;
 }
@@ -768,8 +769,8 @@ html,body
 }
 
 #main5{
-    height: 52.3%;
-    width: 100%;
+    height: 52.3vh;
+    width: 100vw;
     background-color: rgb(43, 43, 43);
 }
 
